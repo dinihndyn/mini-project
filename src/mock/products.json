@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "title" : "Lilies",
+        "price" : 550000,
+        "imgUrl" : "https://i1.fnp.com/images/pr/uae/l/v20210517183233/charming-white-lilies-bouquet_1.jpg"
+    },
+    {
+        "id" : 2,
+        "title" : "Dusty Roses",
+        "price" : 650000,
+        "imgUrl" : "https://cf.shopee.co.id/file/860a79a105e7561c5b23df45280d3412"   
+    },
+    {
+        "id" : 3,
+        "title" : "Enchanted",
+        "price" : 700000,
+        "imgUrl" : "https://cf.shopee.co.id/file/72001b88c9d1468578bb819260745d87"
+    },
+    {
+        "id" : 4,
+        "title" : "gold",
+        "price" : 645000,
+        "imgUrl" : "https://cdn.shopify.com/s/files/1/0248/3555/5414/products/PreservedFlowerBouquet-ClassicBlack_GoldRoses-S-min_800x.jpg?v=1644904928"
+
+    }
+
+]
