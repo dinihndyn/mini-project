@@ -1,8 +1,20 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import products from '../mock/products.json';
+// import products from '../mock/products.json';
+import { client } from '../main'
 
 Vue.use(Vuex)
+
+import gql from 'graphql-tag';
+export const GET_MY_FLORIST = gql`
+    query getFlorist {
+    florist (order_by: {id: asc}){
+        title
+        price
+        id
+        imgUrl
+    }
+}`;
 
 export default new Vuex.Store({
   state: {
@@ -16,7 +28,6 @@ export default new Vuex.Store({
   actions: {
     getProducts({commit}) {
       commit("getProductData");
-
     },
     addToCart({commit},item){
       commit("addItemToCart", item);
@@ -40,7 +51,11 @@ export default new Vuex.Store({
 
   mutations: {
     getProductData(state) {
-      state.products = products;
+      // state.products = products;
+      // Get data product from florist graphql
+      client.query({query:GET_MY_FLORIST}).then(result => {
+        state.products = result.data.florist;
+      })
     },
     addItemToCart(state, item){
         const addedItem = state.cart.find(product => product.id === item.id);
@@ -81,4 +96,6 @@ export default new Vuex.Store({
   }
 
 })
+
+
 

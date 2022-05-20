@@ -1,15 +1,18 @@
 <template>
   <div id="app">
     <headerComponent />
+      
+    
+    
     <div class="container">
+      <homeComponent />
+      
       <div class="row">
         <div class="col-8">
           <productList />
-
         </div>
         <div class="col-4">
           <cartComponent />
-
         </div>
       </div>
       
@@ -19,9 +22,10 @@
 </template>
 
 <script>
-import CartComponent from './components/cartComponent.vue'
+import cartComponent from './components/cartComponent.vue'
 import headerComponent from "./components/headerComponent.vue"
-import productList from "./components/productList.vue";
+import productList from "./components/productList.vue"
+import homeComponent from "./components/homeComponent.vue"
 
 
 export default {
@@ -29,7 +33,8 @@ export default {
   components: {
     headerComponent,
     productList,
-    CartComponent,
+    cartComponent,
+    homeComponent,
   },
 };
 </script>
@@ -39,7 +44,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  
   color: #2c3e50;
   
 }

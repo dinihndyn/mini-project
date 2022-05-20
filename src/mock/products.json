@@ -1,17 +1,5 @@
 [
     {
-        "id" : 1,
-        "title" : "Lilies",
-        "price" : 550000,
-        "imgUrl" : "https://i1.fnp.com/images/pr/uae/l/v20210517183233/charming-white-lilies-bouquet_1.jpg"
-    },
-    {
-        "id" : 2,
-        "title" : "Dusty Roses",
-        "price" : 650000,
-        "imgUrl" : "https://cf.shopee.co.id/file/860a79a105e7561c5b23df45280d3412"   
-    },
-    {
         "id" : 3,
         "title" : "Enchanted",
         "price" : 700000,
@@ -19,10 +7,35 @@
     },
     {
         "id" : 4,
-        "title" : "gold",
+        "title" : "gold rose",
         "price" : 645000,
         "imgUrl" : "https://cdn.shopify.com/s/files/1/0248/3555/5414/products/PreservedFlowerBouquet-ClassicBlack_GoldRoses-S-min_800x.jpg?v=1644904928"
 
-    }
 
+    },
+    {
+        "id" : 5,
+        "title" : "tulip",
+        "price" : 900000,
+        "imgUrl" : "https://i.pinimg.com/originals/f4/63/a8/f463a82614fd3932cf807ab3ab713f2f.jpg"
+    },
+    {
+        "id" : 6,
+        "title" : "vienna bouquet",
+        "price" : 580000,
+        "imgUrl" : "https://cdn.shopify.com/s/files/1/1589/6833/products/Vienna-Bouquet_800x.jpg?v=1643429432"
+
+    },
+    {
+        "id" : 7,
+        "title" : "Purple Orchid",
+        "price" : 1000000,
+        "imgUrl" : "https://cdn.shopify.com/s/files/1/1589/6833/products/luxury-Purple-Orchid-Majesty-in-Vase---white---12-Tangkai_800x.jpg?v=1644205642"
+    },
+    {
+        "id" : 8,
+        "title" : "Juliette Bouquet",
+        "price" : 345000,
+        "imgUrl" : "https://cdn.shopify.com/s/files/1/1589/6833/products/Julietta-Bouquet_800x.jpg?v=1643429347"
+    }
 ]

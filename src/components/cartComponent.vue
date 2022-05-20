@@ -1,10 +1,10 @@
 <template>
 <div>
     <div v-if= "!cart.length" class="alert alert-secondary" role="alert">
-        No Order in Cart!
+        No Order in Cart !
     </div>
     <div v-if= "orderPlaced" class="alert alert-success" role="alert">
-        Order Succesfully Placed!
+        Order Succesfully Placed !
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @click="() => (orderPlaced= false)"></button>
     </div>
     <ul class="list-group">
@@ -29,7 +29,7 @@
             
     </ul>
     <button class=" btn-checkout btn btn-lg btn-block btn-success" v-if= "cart.length" :disabled="isProcessing" @click="placeOrder">
-        <span v-if= "!isProcessing"> ($ {{totalPrice}} ) </span>
+        <span v-if= "!isProcessing"> (Rp. {{totalPrice}} ) </span>
         <div v-else class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
         </div> 
