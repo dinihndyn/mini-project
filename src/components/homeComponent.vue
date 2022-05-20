@@ -8,88 +8,51 @@
     </div>
     <footer
       class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5"
-      style="margin-left: 15%"
+      style="margin-left: 15%; text-align: center"
     >
       <div class="col mb-4">
-        <h5>Section</h5>
+        <h5 style="text-align: center">Leading flower and gifting brand</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Home</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Features</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">About</a>
+            <a href="#" class="nav-link p-0 text-muted"
+              >we provide flower and gifting service across indonesia</a
+            >
           </li>
         </ul>
       </div>
 
       <div class="col mb-4">
-        <h5>Section</h5>
+        <h5 style="text-align: center">Innovative</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Home</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Features</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">About</a>
+            <a href="#" class="nav-link p-0 text-muted"
+              >we offer hundreds of flower aand gift selection that you can give
+              for any season, any reason</a
+            >
           </li>
         </ul>
       </div>
 
       <div class="col mb-4">
-        <h5>Section</h5>
+        <h5 style="text-align: center">Best Quality</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Home</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Features</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">About</a>
+            <a href="#" class="nav-link p-0 text-muted"
+              >we offer hundreds of flower aand gift selection that you can give
+              for any season, any reason</a
+            >
           </li>
         </ul>
       </div>
 
       <div class="col mb-4">
-        <h5>Section</h5>
+        <h5 style="text-align: center">Same Day Delivery</h5>
         <ul class="nav flex-column">
           <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Home</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Features</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">Pricing</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">FAQs</a>
-          </li>
-          <li class="nav-item mb-2">
-            <a href="#" class="nav-link p-0 text-muted">About</a>
+            <a href="#" class="nav-link p-0 text-muted"
+              >we offer hundreds of flower aand gift selection that you can give
+              for any season, any reason</a
+            >
           </li>
         </ul>
       </div>
